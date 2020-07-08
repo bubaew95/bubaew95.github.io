@@ -1,0 +1,92 @@
+@media screen and (max-width: 990px) {
+  /* Header */
+  .header .logo {
+    @isplay: none !important;
+    position: relative !important;
+  }
+  .header .logo-site {
+    width: 50px !important;
+  }
+  .header .navbar-brand > .logo-name {
+    display: block !important;
+  }
+
+  .header .personal-account {
+    border-top: 1px solid #959595;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .header nav {
+    min-height: 70px !important;
+  }
+
+  .header .nav-item {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  /* End Header */
+}
+
+@media screen and (max-width: 550px) {
+  /* Search */
+  .search .search-form form {
+    flex-direction: column !important;
+  }
+
+  .search .input-row,
+  .search select {
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+  /* End Search */
+
+  /* footer */
+  .footer .footer-container {
+    flex-direction: column !important;
+  }
+  /*end Footer */
+
+  /* Details */
+  .requirements-block .requirements ul {
+    column-count: 1 !important;
+  }
+
+  .adv-info .adv-price-block {
+    margin-top: 30px;
+  }
+
+  .details .adv-details .image {
+    margin-bottom: 20px;
+  }
+
+  .details .adv-details .col-md-10 {
+    text-align: center;
+  }
+  /* details */
+
+  /* form */
+  .container.white-container .p-5 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .login .form-check {
+    display: block !important;
+  }
+  .login .form-check > div {
+    margin: 10px 0;
+  }
+
+  .login .login-btns .site-btn {
+    padding: 10px 30px !important;
+  }
+
+  .registration-form .form-check ul {
+    column-count: 1 !important;
+  }
+
+  .footer {
+    padding: 20px 0 !important;
+  }
+}
