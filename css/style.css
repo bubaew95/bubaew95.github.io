@@ -2,7 +2,7 @@
 @import url("./fonts.css");
 
 /* css variebles */
-@import url("./_variables.css");
+@import url("./variables.css");
 
 /* css base-styles */
 @import url("./base-styles.css");
